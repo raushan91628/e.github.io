@@ -5,22 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>E-Shop</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
       <div class="container">
-        <a class="navbar-brand" href="#">E-Shop</a>
+        <a class="navbar-brand" href="#"><i>E-shop</i></a>
         <button class="navbar-toggler"  type="button" data-bs-toggle="collapse"  data-bs-target="#navbarNavDarkDropdown"  aria-controls="navbarNavDarkDropdown" aria-expanded="false"  aria-label="Toggle navigation">
-        
+          <!-- <input type="text" class="text-align-center justify-content-md-center mx-2" placeholder="Search" id="mdg"> -->
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
           <ul class="navbar-nav ms-auto">
-            <li class="nav-item dropdown ">
+            <li class="nav-item dropdown mx-5">
               <button class="btn btn-dark dropdown-toggle " data-bs-toggle="dropdown" aria-expanded="false">
                 Men
               </button>
-              <ul class="dropdown-menu dropdown-menu-dark ">
+              <ul class="dropdown-menu dropdown-menu-dark  ">
                 <li><a class="dropdown-item" href="#chh">Men Shirt</a></li>
                 <li><a class="dropdown-item" href="#chhhh">Men Jeans</a></li>
                 <li><a class="dropdown-item" href="#chhh"> Men Shoes</a></li>
@@ -75,7 +76,8 @@
               </button>
               <ul class="dropdown-menu dropdown-menu-dark">
                 <li><a class="dropdown-item" href="#pop">Bag</a></li>
-
+                </ul>
+                </li>
               </ul>
               </div>
             </li>
@@ -93,8 +95,8 @@
         <div class="carousel-item active">
           <img src="./Ecom/Screenshot (127).png" class="img-fluid " alt="./a.png" wodth="5rem">
           <div class="carousel-caption d-none d-md-block">
-            <h1 class="btn btn-denger mx-5"><b>Laptop</b></h1><br>
-            <p class="btn btn-denger "> Some representative placeholder content for the first slide.</p>
+            <h1 class="btn btn-denger my-5"><b>Laptop</b></h1>
+            <!-- <p class="btn btn-denger "> Some representative placeholder content for the first slide.</p> -->
             <div class="d-grid gap-2 d-md-flex justify-content-md-center">
               <a class="btn btn-primary"  href="#mjk">Buy</a>
             </div>
@@ -130,7 +132,7 @@
       <h1> Shoes</h1>
       <div class="d-inline-flex flex-wrap mx-1 gap-2 ">
         <div class="col">
-          <div class="card h-100">
+          <div class="card h-100 w-60">
             <img src="./Ecom/1711027790502.jpg" class="img-fluid" >
             <div class="card-body">
               <h5 class="card-title">Shoes</h5>
@@ -292,6 +294,21 @@
               <img src="./Ecom/1711027846869.jpg" class="img-fluid" alt="./Ecom/1711027846869.jpg">
               <div class="card-body">
                 <h5 class="card-title">Shirt</h5>
+                <strike>$ 900</strike><strong> 50% Off</strong><mark class="mx-2"> $ 450</mark>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                  <a href="./frame.html" class="btn btn-primary" >Buy</a >
+                </div>
+              </div>
+              <div class="card-footer">
+                <small class="text-body-secondary">Last updated 3 mins ago</small>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="./Ecom/1711027846869.jpg" class="img-fluid" alt="./Ecom/1711027846869.jpg">
+              <div class="card-body">
+                <h5 class="card-title">Shirt</h5>
                 <strike>$ 1000</strike><strong> 80% Off</strong><mark class="mx-2"> $ 200</mark>
 
                 <div class="d-grid gap-2 d-md-flex justify-content-md-end">
@@ -308,13 +325,28 @@
       </div>
       <div class="contener my-5" id="pop">
       <h1> Bag</h1>
-      <div class="d-inline-flex mx-1 gap-2 ">
+      <div class="d-inline-flex flex-wrap mx-1 gap-2 ">
         <div class="col">
           <div class="card h-100">
             <img src="./Ecom/1711027446214.jpg" class="img-fluid" alt="./Ecom/1711027446214.jpg">
             <div class="card-body">
               <h5 class="card-title">Bag</h5>
               <strike>$ 400</strike><strong> 50% Off</strong><mark class="mx-2"> $ 200</mark>
+              <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                <a href="./frame.html" class="btn btn-primary" >Buy</a >
+              </div>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="./Ecom/1711027446214.jpg" class="img-fluid" alt="./Ecom/1711027446214.jpg">
+            <div class="card-body">
+              <h5 class="card-title">Bag</h5>
+              <strike>$ 100</strike><strong> 40% Off</strong><mark class="mx-2"> $ 60</mark>
               <div class="d-grid gap-2 d-md-flex justify-content-md-end">
                 <a href="./frame.html" class="btn btn-primary" >Buy</a >
               </div>
@@ -389,7 +421,7 @@
 
     <div class="contener my-5" id="chhhh">
     <h1> Jeans</h1>
-    <div class="d-inline-flex mx-1 gap-2 ">
+    <div class="d-inline-flex flex-wrap mx-1 gap-2 ">
       <div class="col">
         <div class="card h-100">
           <img src="./Ecom/jm.jpg" class="img-fluid" alt="./ABHISHEK KUMAR.jpg">
@@ -412,6 +444,21 @@
           <div class="card-body">
             <h5 class="card-title">Jeans</h5>
             <strike>$ 400</strike><strong> 50% Off</strong><mark class="mx-2"> $ 200</mark>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+              <a href="./frame.html" class="btn btn-primary" >Buy</a >
+            </div>
+          </div>
+          <div class="card-footer">
+            <small class="text-body-secondary">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="./Ecom/jm.jpg" class="img-fluid" alt="./ABHISHEK KUMAR.jpg">
+          <div class="card-body">
+            <h5 class="card-title">Jeans</h5>
+            <strike>$ 800</strike><strong> 50% Off</strong><mark class="mx-2"> $ 400</mark>
             <div class="d-grid gap-2 d-md-flex justify-content-md-end">
               <a href="./frame.html" class="btn btn-primary" >Buy</a >
             </div>
@@ -471,13 +518,28 @@
 
   <div class="contener my-5" id="la">
     <h1> Apple Laptop</h1>
-    <div class="d-inline-flex mx-1 gap-2 ">
+    <div class="d-inline-flex flex-wrap mx-1 gap-2 ">
       <div class="col">
         <div class="card h-100">
           <img src="./Ecom/lk.jpg" class="img-fluid" alt="./ABHISHEK KUMAR.jpg">
           <div class="card-body">
             <h5 class="card-title">Apple Laptop</h5>
             <strike>$ 40000</strike><strong> 50% Off</strong><mark class="mx-2"> $ 20000</mark>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+              <a href="./frame.html" class="btn btn-primary" >Buy</a >
+            </div>
+          </div>
+          <div class="card-footer">
+            <small class="text-body-secondary">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="./Ecom/lk.jpg" class="img-fluid" alt="./ABHISHEK KUMAR.jpg">
+          <div class="card-body">
+            <h5 class="card-title">Apple Laptop</h5>
+            <strike>$ 10000</strike><strong> 50% Off</strong><mark class="mx-2"> $ 5000</mark>
             <div class="d-grid gap-2 d-md-flex justify-content-md-end">
               <a href="./frame.html" class="btn btn-primary" >Buy</a >
             </div>
@@ -554,13 +616,28 @@
 
   <div class="contener my-5" id="lh" >
     <h1> HP Laptop</h1>
-    <div class="d-inline-flex mx-1 gap-2 ">
+    <div class="d-inline-flex flex-wrap mx-1 gap-2 ">
       <div class="col">
         <div class="card h-100">
           <img src="./Ecom/Screenshot (131).png" class="img-fluid" alt="./ABHISHEK KUMAR.jpg">
           <div class="card-body">
             <h5 class="card-title">HP Laptop</h5>
             <strike>$ 40000</strike><strong> 50% Off</strong><mark class="mx-2"> $ 20000</mark>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+              <a href="./frame.html" class="btn btn-primary" >Buy</a >
+            </div>
+          </div>
+          <div class="card-footer">
+            <small class="text-body-secondary">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="./Ecom/Screenshot (131).png" class="img-fluid" alt="./ABHISHEK KUMAR.jpg">
+          <div class="card-body">
+            <h5 class="card-title">HP Laptop</h5>
+            <strike>$ 10000</strike><strong> 50% Off</strong><mark class="mx-2"> $ 5000</mark>
             <div class="d-grid gap-2 d-md-flex justify-content-md-end">
               <a href="./frame.html" class="btn btn-primary" >Buy</a >
             </div>
@@ -634,13 +711,28 @@
   </div>
   <div class="contener my-5" id="ld">
     <h1> Dell Laptop</h1>
-    <div class="d-inline-flex mx-1 gap-2 ">
+    <div class="d-inline-flex flex-wrap mx-1 gap-2 ">
       <div class="col">
         <div class="card h-100">
           <img src="./Ecom/Screenshot (132).png" class="img-fluid" alt="./ABHISHEK KUMAR.jpg">
           <div class="card-body">
             <h5 class="card-title">Dell Laptop</h5>
             <strike>$ 40000</strike><strong> 50% Off</strong><mark class="mx-2"> $ 20000</mark>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+              <a href="./frame.html" class="btn btn-primary" >Buy</a >
+            </div>
+          </div>
+          <div class="card-footer">
+            <small class="text-body-secondary">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="./Ecom/Screenshot (132).png" class="img-fluid" alt="./ABHISHEK KUMAR.jpg">
+          <div class="card-body">
+            <h5 class="card-title">Dell Laptop</h5>
+            <strike>$ 10000</strike><strong> 50% Off</strong><mark class="mx-2"> $ 5000</mark>
             <div class="d-grid gap-2 d-md-flex justify-content-md-end">
               <a href="./frame.html" class="btn btn-primary" >Buy</a >
             </div>
@@ -715,13 +807,28 @@
 
   <div class="contener my-5" id="las">
     <h1>ASUS Laptop</h1>
-    <div class="d-inline-flex mx-1 gap-2 ">
+    <div class="d-inline-flex flex-wrap mx-1 gap-2 ">
       <div class="col">
         <div class="card h-100">
           <img src="./Ecom/Screenshot (133).png" class="img-fluid" alt="./ABHISHEK KUMAR.jpg">
           <div class="card-body">
             <h5 class="card-title">ASUS Laptop</h5>
             <strike>$ 40000</strike><strong> 50% Off</strong><mark class="mx-2"> $ 20000</mark>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+              <a href="./frame.html" class="btn btn-primary" >Buy</a >
+            </div>
+          </div>
+          <div class="card-footer">
+            <small class="text-body-secondary">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="./Ecom/Screenshot (133).png" class="img-fluid" alt="./ABHISHEK KUMAR.jpg">
+          <div class="card-body">
+            <h5 class="card-title">ASUS Laptop</h5>
+            <strike>$ 10000</strike><strong> 50% Off</strong><mark class="mx-2"> $ 5000</mark>
             <div class="d-grid gap-2 d-md-flex justify-content-md-end">
               <a href="./frame.html" class="btn btn-primary" >Buy</a >
             </div>
@@ -798,13 +905,28 @@
 
   <div class="contener my-5" id="ps">
     <h1> Samsung Phone</h1>
-    <div class="d-inline-flex mx-1 gap-2 ">
+    <div class="d-inline-flex flex-wrap mx-1 gap-2 ">
       <div class="col">
         <div class="card h-100">
           <img src="./Ecom/Screenshot (134).png" class="img-fluid" alt="./ABHISHEK KUMAR.jpg">
           <div class="card-body">
             <h5 class="card-title">Samsung Phone</h5>
            <strike>$ 40000</strike><strong> 50% Off</strong><mark class="mx-2"> $ 20000</mark>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+              <a href="./frame.html" class="btn btn-primary" >Buy</a >
+            </div>
+          </div>
+          <div class="card-footer">
+            <small class="text-body-secondary">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="./Ecom/Screenshot (134).png" class="img-fluid" alt="./ABHISHEK KUMAR.jpg">
+          <div class="card-body">
+            <h5 class="card-title">Samsung Phone</h5>
+            <strike>$ 10000</strike><strong> 50% Off</strong><mark class="mx-2"> $ 5000</mark>
             <div class="d-grid gap-2 d-md-flex justify-content-md-end">
               <a href="./frame.html" class="btn btn-primary" >Buy</a >
             </div>
@@ -881,13 +1003,28 @@
 
   <div class="contener my-5" id="pa">
     <h1> Apple Phone</h1>
-    <div class="d-inline-flex mx-1 gap-2 ">
+    <div class="d-inline-flex flex-wrap mx-1 gap-2 ">
       <div class="col">
         <div class="card h-100">
           <img src="./Ecom/Screenshot (135).png" class="img-fluid" alt="./ABHISHEK KUMAR.jpg">
           <div class="card-body">
             <h5 class="card-title">Apple Phone</h5>
            <strike>$ 40000</strike><strong> 50% Off</strong><mark class="mx-2"> $ 20000</mark>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+              <a href="./frame.html" class="btn btn-primary" >Buy</a >
+            </div>
+          </div>
+          <div class="card-footer">
+            <small class="text-body-secondary">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="./Ecom/Screenshot (135).png" class="img-fluid" alt="./ABHISHEK KUMAR.jpg">
+          <div class="card-body">
+            <h5 class="card-title">Apple Phone</h5>
+            <strike>$ 10000</strike><strong> 50% Off</strong><mark class="mx-2"> $ 5000</mark>
             <div class="d-grid gap-2 d-md-flex justify-content-md-end">
               <a href="./frame.html" class="btn btn-primary" >Buy</a >
             </div>
@@ -962,7 +1099,7 @@
 
   <div class="contener my-5" id="pr">
     <h1> Redmi Phone</h1>
-    <div class="d-inline-flex mx-1 gap-2 ">
+    <div class="d-inline-flex flex-wrap mx-1 gap-2 ">
       <div class="col">
         <div class="card h-100">
           <img src="./Ecom/Screenshot (138).png" class="img-fluid" alt="./ABHISHEK KUMAR.jpg">
@@ -984,6 +1121,21 @@
           <div class="card-body">
             <h5 class="card-title">Redmi Phone</h5>
             <strike>$ 10000</strike><strong> 50% Off</strong><mark class="mx-2"> $ 5000</mark>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+              <a href="./frame.html" class="btn btn-primary" >Buy</a >
+            </div>
+          </div>
+          <div class="card-footer">
+            <small class="text-body-secondary">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="./Ecom/Screenshot (138).png" class="img-fluid" alt="./ABHISHEK KUMAR.jpg">
+          <div class="card-body">
+            <h5 class="card-title">Redmi Phone</h5>
+            <strike>$ 50000</strike><strong> 50% Off</strong><mark class="mx-2"> $ 25000</mark>
             <div class="d-grid gap-2 d-md-flex justify-content-md-end">
               <a href="./frame.html" class="btn btn-primary" >Buy</a >
             </div>
@@ -1045,7 +1197,7 @@
 
   <div class="contener my-5" id="pl">
     <h1> Lava Phone</h1>
-    <div class="d-inline-flex mx-1 gap-2 ">
+    <div class="d-inline-flex flex-wrap mx-1 gap-2 ">
       <div class="col">
         <div class="card h-100">
           <img src="./Ecom/Screenshot (137).png" class="img-fluid" alt="./ABHISHEK KUMAR.jpg">
@@ -1067,6 +1219,21 @@
           <div class="card-body">
             <h5 class="card-title">Lava Phone</h5>
             <strike>$ 10000</strike><strong> 50% Off</strong><mark class="mx-2"> $ 5000</mark>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+              <a href="./frame.html" class="btn btn-primary" >Buy</a >
+            </div>
+          </div>
+          <div class="card-footer">
+            <small class="text-body-secondary">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="./Ecom/Screenshot (137).png" class="img-fluid" alt="./ABHISHEK KUMAR.jpg">
+          <div class="card-body">
+            <h5 class="card-title">Lava Phone</h5>
+            <strike>$ 50000</strike><strong> 50% Off</strong><mark class="mx-2"> $ 25000</mark>
             <div class="d-grid gap-2 d-md-flex justify-content-md-end">
               <a href="./frame.html" class="btn btn-primary" >Buy</a >
             </div>
@@ -1128,7 +1295,7 @@
 
   <div class="contener my-5" id="pi">
     <h1> Infinix Phone</h1>
-    <div class="d-inline-flex mx-1 gap-2 ">
+    <div class="d-inline-flex flex-wrap mx-1 gap-2 ">
       <div class="col">
         <div class="card h-100">
           <img src="./Ecom/Screenshot (136).png" class="img-fluid" alt="./ABHISHEK KUMAR.jpg">
@@ -1194,6 +1361,21 @@
           <img src="./Ecom/Screenshot (136).png" class="img-fluid" alt="./ABHISHEK KUMAR.jpg">
           <div class="card-body">
             <h5 class="card-title">Infinix Phone</h5>
+            <strike>$ 100000</strike><strong> 40% Off</strong><mark class="mx-2"> $ 60000</mark>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+              <a href="./frame.html" class="btn btn-primary" >Buy</a >
+            </div>
+          </div>
+          <div class="card-footer">
+            <small class="text-body-secondary">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="./Ecom/Screenshot (136).png" class="img-fluid" alt="./ABHISHEK KUMAR.jpg">
+          <div class="card-body">
+            <h5 class="card-title">Infinix Phone</h5>
             <strike>$ 90000</strike><strong> 50% Off</strong><mark class="mx-2"> $ 45000</mark>
             <div class="d-grid gap-2 d-md-flex justify-content-md-end">
               <a href="./frame.html" class="btn btn-primary" >Buy</a >
@@ -1212,13 +1394,28 @@
 
   <div class="contener my-7" id="wm">
     <h1> Women Shirt</h1>
-    <div class="d-inline-flex mx-1 gap-2 ">
+    <div class="d-inline-flex flex-wrap mx-1 gap-2 ">
       <div class="col">
         <div class="card h-100">
           <img src="./Ecom/Screenshot (146).png" class="img-fluid" alt="./ABHISHEK KUMAR.jpg">
           <div class="card-body">
             <h5 class="card-title">Women Shirt</h5>
            <strike>$ 100</strike><strong> 40% Off</strong><mark class="mx-2"> $ 60</mark>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+              <a href="./frame.html" class="btn btn-primary" >Buy</a >
+            </div>
+          </div>
+          <div class="card-footer">
+            <small class="text-body-secondary">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="./Ecom/Screenshot (146).png" class="img-fluid" alt="./ABHISHEK KUMAR.jpg">
+          <div class="card-body">
+            <h5 class="card-title">Women Shirt</h5>
+           <strike>$ 200</strike><strong> 50% Off</strong><mark class="mx-2"> $ 100</mark>
             <div class="d-grid gap-2 d-md-flex justify-content-md-end">
               <a href="./frame.html" class="btn btn-primary" >Buy</a >
             </div>
@@ -1295,7 +1492,7 @@
 
   <div class="contener my-7" id="wmm">
     <h1> Women Jeans</h1>
-    <div class="d-inline-flex mx-1 gap-2 ">
+    <div class="d-inline-flex flex-wrap mx-1 gap-2 ">
       <div class="col">
         <div class="card h-100">
           <img src="./Ecom/Screenshot (147).png" class="img-fluid" alt="./ABHISHEK KUMAR.jpg">
@@ -1317,6 +1514,21 @@
           <div class="card-body">
             <h5 class="card-title">Women Jeans</h5>
            <strike>$ 200</strike><strong> 50% Off</strong><mark class="mx-2"> $ 100</mark>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+              <a href="./frame.html" class="btn btn-primary" >Buy</a >
+            </div>
+          </div>
+          <div class="card-footer">
+            <small class="text-body-secondary">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="./Ecom/Screenshot (147).png" class="img-fluid" alt="./ABHISHEK KUMAR.jpg">
+          <div class="card-body">
+            <h5 class="card-title">Women Jeans</h5>
+            <strike>$ 1000</strike><strong> 40% Off</strong><mark class="mx-2"> $ 600</mark>
             <div class="d-grid gap-2 d-md-flex justify-content-md-end">
               <a href="./frame.html" class="btn btn-primary" >Buy</a >
             </div>
@@ -1378,7 +1590,7 @@
 
   <div class="contener my-5" id="wmmm">
     <h1> Women shoes</h1>
-    <div class="d-inline-flex mx-1 gap-2 ">
+    <div class="d-inline-flex flex-wrap mx-1 gap-2 ">
       <div class="col">
         <div class="card h-100">
           <img src="./Ecom/Screenshot (148).png" class="img-fluid" alt="./ABHISHEK KUMAR.jpg">
@@ -1400,6 +1612,21 @@
           <div class="card-body">
             <h5 class="card-title">Women shoes</h5>
            <strike>$ 200</strike><strong> 50% Off</strong><mark class="mx-2"> $ 100</mark>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+              <a href="./frame.html" class="btn btn-primary" >Buy</a >
+            </div>
+          </div>
+          <div class="card-footer">
+            <small class="text-body-secondary">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="./Ecom/Screenshot (148).png" class="img-fluid" alt="./ABHISHEK KUMAR.jpg">
+          <div class="card-body">
+            <h5 class="card-title">Women shoes</h5>
+            <strike>$ 1000</strike><strong> 40% Off</strong><mark class="mx-2"> $ 600</mark>
             <div class="d-grid gap-2 d-md-flex justify-content-md-end">
               <a href="./frame.html" class="btn btn-primary" >Buy</a >
             </div>
@@ -1460,7 +1687,7 @@
   </div>
   <div class="contener my-5" id="bi" >
     <h1> IIT Book</h1>
-    <div class="d-inline-flex mx-1 gap-2 ">
+    <div class="d-inline-flex flex-wrap mx-1 gap-2 ">
       <div class="col">
         <div class="card h-100">
           <img src="./Ecom/Screenshot (139).png" class="img-fluid" alt="./ABHISHEK KUMAR.jpg">
@@ -1482,6 +1709,21 @@
           <div class="card-body">
             <h5 class="card-title">IIT Book</h5>
            <strike>$ 200</strike><strong> 50% Off</strong><mark class="mx-2"> $ 100</mark>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+              <a href="./frame.html" class="btn btn-primary" >Buy</a >
+            </div>
+          </div>
+          <div class="card-footer">
+            <small class="text-body-secondary">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="./Ecom/Screenshot (139).png" class="img-fluid" alt="./ABHISHEK KUMAR.jpg">
+          <div class="card-body">
+            <h5 class="card-title">IIT Book</h5>
+            <strike>$ 1000</strike><strong> 40% Off</strong><mark class="mx-2"> $ 600</mark>
             <div class="d-grid gap-2 d-md-flex justify-content-md-end">
               <a href="./frame.html" class="btn btn-primary" >Buy</a >
             </div>
@@ -1543,13 +1785,28 @@
 
   <div class="contener my-7" id="bn">
     <h1> Neet Book</h1>
-    <div class="d-inline-flex mx-1 gap-2 ">
+    <div class="d-inline-flex flex-wrap mx-1 gap-2 ">
       <div class="col">
         <div class="card h-100">
           <img src="./Ecom/Screenshot (140).png" class="img-fluid" alt="./ABHISHEK KUMAR.jpg">
           <div class="card-body">
             <h5 class="card-title">Neet Book</h5>
            <strike>$ 100</strike><strong> 40% Off</strong><mark class="mx-2"> $ 60</mark>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+              <a href="./frame.html" class="btn btn-primary" >Buy</a >
+            </div>
+          </div>
+          <div class="card-footer">
+            <small class="text-body-secondary">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="./Ecom/Screenshot (140).png" class="img-fluid" alt="./ABHISHEK KUMAR.jpg">
+          <div class="card-body">
+            <h5 class="card-title">Neet Book</h5>
+           <strike>$ 200</strike><strong> 50% Off</strong><mark class="mx-2"> $ 100</mark>
             <div class="d-grid gap-2 d-md-flex justify-content-md-end">
               <a href="./frame.html" class="btn btn-primary" >Buy</a >
             </div>
@@ -1625,13 +1882,28 @@
   </div>
   <div class="contener my-5" id="bc">
     <h1> Competition Book</h1>
-    <div class="d-inline-flex mx-1 gap-2 ">
+    <div class="d-inline-flex flex-wrap mx-1 gap-2 ">
       <div class="col">
         <div class="card h-100">
           <img src="./Ecom/Screenshot (141).png" class="img-fluid" alt="./ABHISHEK KUMAR.jpg">
           <div class="card-body">
             <h5 class="card-title">Competition Book</h5>
            <strike>$ 100</strike><strong> 40% Off</strong><mark class="mx-2"> $ 60</mark>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+              <a href="./frame.html" class="btn btn-primary" >Buy</a >
+            </div>
+          </div>
+          <div class="card-footer">
+            <small class="text-body-secondary">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="./Ecom/Screenshot (141).png" class="img-fluid" alt="./ABHISHEK KUMAR.jpg">
+          <div class="card-body">
+            <h5 class="card-title">Competition Book</h5>
+           <strike>$ 200</strike><strong> 50% Off</strong><mark class="mx-2"> $ 100</mark>
             <div class="d-grid gap-2 d-md-flex justify-content-md-end">
               <a href="./frame.html" class="btn btn-primary" >Buy</a >
             </div>
@@ -1708,13 +1980,28 @@
 
   <div class="contener my-5" id="e5">
     <h1> Water Moter</h1>
-    <div class="d-inline-flex mx-1 gap-2 ">
+    <div class="d-inline-flex flex-wrap mx-1 gap-2 ">
       <div class="col">
         <div class="card h-100">
           <img src="./Ecom/Screenshot (142).png" class="img-fluid" alt="./ABHISHEK KUMAR.jpg">
           <div class="card-body">
             <h5 class="card-title">Water Moter</h5>
            <strike>$ 100</strike><strong> 40% Off</strong><mark class="mx-2"> $ 60</mark>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+              <a href="./frame.html" class="btn btn-primary" >Buy</a >
+            </div>
+          </div>
+          <div class="card-footer">
+            <small class="text-body-secondary">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="./Ecom/Screenshot (142).png" class="img-fluid" alt="./ABHISHEK KUMAR.jpg">
+          <div class="card-body">
+            <h5 class="card-title">Water Moter</h5>
+           <strike>$ 200</strike><strong> 50% Off</strong><mark class="mx-2"> $ 100</mark>
             <div class="d-grid gap-2 d-md-flex justify-content-md-end">
               <a href="./frame.html" class="btn btn-primary" >Buy</a >
             </div>
@@ -1791,7 +2078,7 @@
 
   <div class="contener my-5" id="e4">
     <h1> Light</h1>
-    <div class="d-inline-flex mx-1 gap-2 ">
+    <div class="d-inline-flex flex-wrap mx-1 gap-2 ">
       <div class="col">
         <div class="card h-100">
           <img src="./Ecom/Screenshot (144).png" class="img-fluid" alt="./ABHISHEK KUMAR.jpg">
@@ -1813,6 +2100,21 @@
           <div class="card-body">
             <h5 class="card-title">Light</h5>
            <strike>$ 200</strike><strong> 50% Off</strong><mark class="mx-2"> $ 100</mark>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+              <a href="./frame.html" class="btn btn-primary" >Buy</a >
+            </div>
+          </div>
+          <div class="card-footer">
+            <small class="text-body-secondary">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="./Ecom/Screenshot (144).png" class="img-fluid" alt="./ABHISHEK KUMAR.jpg">
+          <div class="card-body">
+            <h5 class="card-title">Light</h5>
+            <strike>$ 1000</strike><strong> 40% Off</strong><mark class="mx-2"> $ 600</mark>
             <div class="d-grid gap-2 d-md-flex justify-content-md-end">
               <a href="./frame.html" class="btn btn-primary" >Buy</a >
             </div>
@@ -1874,7 +2176,7 @@
 
   <div class="contener my-5" id="e3" >
     <h1> Iron</h1>
-    <div class="d-inline-flex mx-1 gap-2 ">
+    <div class="d-inline-flex flex-wrap mx-1 gap-2 ">
       <div class="col">
         <div class="card h-100">
           <img src="./Ecom/Screenshot (149).png" class="img-fluid" alt="./ABHISHEK KUMAR.jpg">
@@ -1896,6 +2198,21 @@
           <div class="card-body">
             <h5 class="card-title">Iron</h5>
            <strike>$ 200</strike><strong> 50% Off</strong><mark class="mx-2"> $ 100</mark>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+              <a href="./frame.html" class="btn btn-primary" >Buy</a >
+            </div>
+          </div>
+          <div class="card-footer">
+            <small class="text-body-secondary">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="./Ecom/Screenshot (149).png" class="img-fluid" alt="./ABHISHEK KUMAR.jpg">
+          <div class="card-body">
+            <h5 class="card-title">Iron</h5>
+            <strike>$ 1000</strike><strong> 40% Off</strong><mark class="mx-2"> $ 600</mark>
             <div class="d-grid gap-2 d-md-flex justify-content-md-end">
               <a href="./frame.html" class="btn btn-primary" >Buy</a >
             </div>
@@ -1956,7 +2273,7 @@
   </div>
   <div class="contener my-7" id="e2">
     <h1> Fan</h1>
-    <div class="d-inline-flex mx-1 gap-2 ">
+    <div class="d-inline-flex flex-wrap mx-1 gap-2 ">
       <div class="col">
         <div class="card h-100">
           <img src="./Ecom/Screenshot (143).png" class="img-fluid" alt="./ABHISHEK KUMAR.jpg">
@@ -1978,6 +2295,21 @@
           <div class="card-body">
             <h5 class="card-title">Fan</h5>
            <strike>$ 200</strike><strong> 50% Off</strong><mark class="mx-2"> $ 100</mark>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+              <a href="./frame.html" class="btn btn-primary" >Buy</a >
+            </div>
+          </div>
+          <div class="card-footer">
+            <small class="text-body-secondary">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="./Ecom/Screenshot (143).png" class="img-fluid" alt="./ABHISHEK KUMAR.jpg">
+          <div class="card-body">
+            <h5 class="card-title">Fan</h5>
+            <strike>$ 1000</strike><strong> 40% Off</strong><mark class="mx-2"> $ 600</mark>
             <div class="d-grid gap-2 d-md-flex justify-content-md-end">
               <a href="./frame.html" class="btn btn-primary" >Buy</a >
             </div>
@@ -2039,7 +2371,7 @@
 
   <div class="contener my-5" id="e1">
     <h1>Coolers</h1>
-    <div class="d-inline-flex mx-1 gap-2 ">
+    <div class="d-inline-flex flex-wrap mx-1 gap-2 ">
       <div class="col">
         <div class="card h-100">
           <img src="./Ecom/Screenshot (145).png" class="img-fluid" alt="./ABHISHEK KUMAR.jpg">
@@ -2061,6 +2393,21 @@
           <div class="card-body">
             <h5 class="card-title">Cooler</h5>
            <strike>$ 200</strike><strong> 50% Off</strong><mark class="mx-2"> $ 100</mark>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+              <a href="./frame.html" class="btn btn-primary" >Buy</a >
+            </div>
+          </div>
+          <div class="card-footer">
+            <small class="text-body-secondary">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="./Ecom/Screenshot (145).png" class="img-fluid" alt="./ABHISHEK KUMAR.jpg">
+          <div class="card-body">
+            <h5 class="card-title">Cooler</h5>
+            <strike>$ 1000</strike><strong> 40% Off</strong><mark class="mx-2"> $ 600</mark>
             <div class="d-grid gap-2 d-md-flex justify-content-md-end">
               <a href="./frame.html" class="btn btn-primary" >Buy</a >
             </div>
